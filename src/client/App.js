@@ -53,18 +53,20 @@ function Select({ handleSubmit }) {
         <div className="lorem">
           <h1>Welcome!</h1>
           <p>
-            Lorem ipsum dolor sit amet consectetur adipisicing elit.<br /> Perspiciatis iste delectus, voluptatibus dolor aspernatur<br /> autem reiciendis tempore rerum?
+          My name is Emanuele and this is my CV portfolio <br/> (or whatever you prefer to call it) online. I created this base <br/> with React, I tried to give my best to expose my practical <br/> skills in the field of coding.
           </p>
           <Card />
         </div>
         <div className="lorem2">
-          <h2>Simple React App</h2>
+          <h2>What inspired me</h2>
           <p>
-            Lorem ipsum dolor sit amet consectetur adipisicing elit.<br /> Perspiciatis iste delectus, voluptatibus dolor aspernatur<br /> autem reiciendis tempore rerum?
+          This is a project born from my creativity to make animations and take some videos from external sources and insert them here, just to embellish everything like a Christmas tree where in this case the decorations are from the Aunt.
           </p>
           <Card2 />
         </div>
+        <div className="schede">
         <Schede />
+        </div>
       </header>
       <footer>
         <Video />

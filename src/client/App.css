@@ -52,7 +52,7 @@ nav a.navbar-brand {
   color: #ffff;
   margin-left: 3%;
   transform: translateX(-200px);
-  animation: slideL .8s ease forwards .9s;
+  animation: slideL .9s ease forwards .9s;
 }
 
 nav a.navbar-brand:hover {
@@ -69,7 +69,7 @@ nav a.navbar-brand:hover {
   margin-top: -70px;
   margin-right: 10px;
   transform: translateY(150px);
-  animation: slideIn .8s ease forwards .9s;
+  animation: slideIn .9s ease forwards .9s;
 }
 
 .navbar-nav a:hover {
@@ -82,16 +82,20 @@ div.lorem {
   padding: 20px 110px;
   margin-top: 40px;
   height: 600px;
+  margin-left: -10px;
+  width: 100%;
   overflow: hidden;
+  transform: translateX(2000px);
+  animation: slideL .6s ease-in-out forwards .4s;
 }
 
 div.lorem h1 {
-  margin-top: 20px;
+  margin-top: 60px;
   color: #ffffff;
   font-weight: bold;
   font-size: 28px;
   transform: translateX(-900px);
-  animation: slideL .6s ease-in-out forwards .4s;
+  animation: slideL .9s ease-in-out forwards .6s;
 }
 
 .lorem p {
@@ -99,7 +103,7 @@ div.lorem h1 {
   font-weight: bold;
   font-size: 28px;
   transform: translateX(-900px);
-  animation: slideL .6s ease-in-out forwards .4s;
+  animation: slideL .9s ease-in-out forwards .6s;
 }
 
 div.foto img {
@@ -151,7 +155,7 @@ body {
 div.primo .card {
   width: 30rem;
   left: 56%;
-  top: -180px;
+  top: -250px;
   animation: opacity 5s;
   border-radius: 10px;
   border-color: #111;
@@ -419,8 +423,6 @@ li:nth-child(2) {
 div.video {
   width: 100%;
   height: 100%;
-  object-fit: cover;
-  object-position: bottom center;
   text-align: center;
   margin-bottom: -10%;
 }
@@ -649,3 +651,62 @@ span {
     transform: rotate(360deg);
   }
 }
+
+
+/*
+@media (min-width:414px){
+.navbar-toggler{
+  margin-top: -25%;
+}
+nav a.navbar-brand {
+  margin-left: -20px;
+}
+div.lorem{
+  margin-top: 20px;
+}
+div.lorem h1{
+  margin-top: 2px;
+  text-align: center;
+}
+div.lorem p{
+  text-align: center;
+  font-size: 21px;
+  margin-bottom: 21%;
+}
+div.primo .card{
+  margin-left: -99px;
+  border-color: #000000;
+  width: 100%;
+  top: -15px;
+  height: 100%;
+}
+div.lorem2 h2{
+  text-align: center;
+  size: 10px;
+  margin-right: -50%;
+  margin-left: -90px;
+  margin-top: -28px;
+}
+div.lorem2 p{
+  text-align: center;
+  font-size: 21px;
+  margin-right: -50%;
+  margin-bottom: 100%;
+  margin-left: -90px;
+}
+div.secondo .card{
+  margin-left: -10px;
+  border-color: #000000;
+  width: 100%;
+  top: -15px;
+  height: 100%;
+}
+.container{
+  margin-top: 30px;
+  margin-bottom: 30px;
+  left: -110px;
+}
+
+
+     }
+*/

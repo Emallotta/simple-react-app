@@ -8,7 +8,6 @@ function Footer() {
                 <div className="item"><span>Instagram</span></div>
                 <div className="item"><span>Linkedin</span></div>
                 <div className="item"><span>Github</span></div>
-                <div className="item"><span>Reference</span></div>
             </div>
         </div>
     )
