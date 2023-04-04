@@ -145,13 +145,6 @@ body {
   width: 100%;
 }
 
-.bgvideo {
-  z-index: 1;
-  object-fit: cover;
-  top: 0;
-  left: 0;
-}
-
 div.primo .card {
   width: 30rem;
   left: 56%;
@@ -168,6 +161,14 @@ div.secondo .card {
   animation: opacity 5s;
   border-radius: 10px;
   border-color: #ffffff;
+}
+
+div.primo .card video{
+  border-radius: 8px;
+}
+
+div.secondo .card video{
+    border-radius: 8px;
 }
 
 
